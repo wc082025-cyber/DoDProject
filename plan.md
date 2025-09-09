@@ -15,6 +15,34 @@
      With some additional input from Jhonatan, I will make som QOL changes to the map.
      The name structure and a visual overhaul to simplify and make readability easier, will be changed.
 
+
+
+
+     today was somewhat harder that yesterday. I am still fresh, and my understanding is limited.
+    As mentioned my goal is to make a text based dungeon game, with if else statements.
+    strings and boold and such. I dont understand the coding enoug yet, so i have
+    used copilot to somewhat guide me through some steps on the way,
+    but using to much AI will inhibit my learning. And still trying to figure out how
+    I should use the tool available without cheating to much can be hard.
+
+    I have come to understand some things today.
+    How I can code options as if, else, else if. and the inputs start to get in to my brain
+    and make sense, its a small step, but a step in the right direction.
+
+    The code now starts in a room, and the player get a question to pick up, go left and go right.
+    pick up leads to choosing one of two items, and then returns to the title where player must choose
+    between pick up, go left og go right.
+    When choosing left, the player gets the message You have chosen the left door.
+    But it still returns to the title and do not enter the next room yet.
+    There is still much to figure out.
+
+    I think i now understand what static void does.
+    it separates the code so in my instance, void 1 is void main, and void 2 is
+    static void EnterLeftRoom, where if i understand correctly,
+    the code does not read the main section longer, and a new section of code is now reading.
+    In short:
+    void main is room 1, and void EnterLeftRoom is room 2.
+
 # pseudocode
 
     ```csharp
