@@ -8,11 +8,9 @@ class Program
     {
         string input = "";
         bool validChoice = false;
+
         while (!validChoice)
         {
-
-
-
             Console.WriteLine("You have woken up in a dungeon. You can see two doors, left and right, and something on the floor");
             Console.WriteLine("What will you do? go left, go right or pick up?");
 
@@ -20,30 +18,31 @@ class Program
 
             if (input == "go left")
             {
+                Console.WriteLine("You have chosen the Left door");
                 EnterLeftDoor();
+                validChoice = true;
             }
 
-            {
-                Console.WriteLine("You have chosen the Left door");
-            }
+
             else if (input == "go right")
             {
-                EnterRightDoor();
-            }
-            {
                 Console.WriteLine("you have chosen the Right door");
+                EnterRightDoor();
+                validChoice = true;
             }
+
             else if (input == "pick up")
             {
+                Console.WriteLine("picked up two items, you can only bring one, shield or sword");
                 HandlePickup();
+                validChoice = true;
             }
             {
-                Console.WriteLine("picked up two items, you can only bring one, shield or sword");
                 string itemChoice = Console.ReadLine().Trim().ToLower();
 
                 if (itemChoice == "shield")
                 {
-                    Console.WriteLine("Youo picked up the shield, It is an old wooden shield, not much, but better than nothing");
+                    Console.WriteLine("You picked up the shield, It is an old wooden shield, not much, but better than nothing");
 
                 }
                 else if (itemChoice == "sword")
@@ -53,22 +52,60 @@ class Program
                 else
                 {
                     Console.WriteLine("Try something else");
+                }                 
+            }
+            bool doorChosen = false;
+            while (!doorChosen)
+
+            {
+                Console.WriteLine("You have chosen your weapon, you must choose a door");
+                string doorChoise = Console.ReadLine().Trim().ToLower();
+
+                if (doorChoise == "go left")
+                {
+                    Console.WriteLine("You have chosen the left door. Time will tell if this was wise");
+                    EnterLeftDoor();
+                    doorChosen = true;
+                    validChoice = true;
+                }
+                else if (doorChoise == "go right")
+                {
+                    Console.WriteLine("You went for the right door and wonder if this will take you to freedom");
+                    EnterRightDoor();
+                    doorChosen = true;
+                    validChoice = true;
+                }
+                else
+                {
+                    Console.WriteLine("Try again");
                 }
             }
-
-
-            else
-            {
-                Console.WriteLine("Try again");
-            }
-
         }
 
-
-    }
+        } 
     static void EnterLeftDoor()
+    {
+        Console.WriteLine("You entered the left door");    
+    }
+    static void EnterRightDoor()
+    {
+        Console.WriteLine("You entered the right door");
+    }
+    static void HandlePickup()
+    {
+        string itemChoice = Console.ReadLine().Trim().ToLower();
+
+        if (itemChoice == "shield")
         {
-            Console.WriteLine("You Enter the left door, there is a guard. You have a weapon, and kill the guard. Go through the left or right door?");
-            string action = Console.ReadLine().Trim().ToLower();
+            Console.WriteLine("You picked up a old wooden SHIELD. It is not much, but still better than nothing.");
         }
+        else if (itemChoice == "sword")
+        {
+            Console.WriteLine("You picked up a rusty old SWORD, it is not sharp by any means, but might be useful");
+        }
+        else
+        {
+            Console.WriteLine("Try again");
+        }
+    }
 }

@@ -43,6 +43,26 @@
     In short:
     void main is room 1, and void EnterLeftRoom is room 2.
 
+
+    wednesday sept 10 11.00
+    I think i was wrong about void structure.
+    but I am learning slowly and steadily I think.
+    The statements if, else if and else are starting to meke more sense to me.
+    Inputs are starting to make more sense. As do variables and bools and how to use them.
+    I still think focusing on back end was the right choice for me.
+    Even it is not as "flashy" and visually appealing at first glance,
+    there is something drawing me in there.
+    I personally think there is more I can do in BE anf FE or FS that will be more meaningful
+    to me and what I want to work with.
+    I just have to get a deeper understanding.
+    To compare this with photography and Photoshop,
+    I was a bit slow at first, but after a while when I got The fundementals down,
+    operating a camera and using photoshop became second nature.
+    I think coding will work in the same way. It is harder to learn in some way as I
+    am more used to work in a visual enviroment that gives me instant feedback.
+
+    What i need to get a grip on today or soon, is difficult to explain, because I dont know how to.
+
 # pseudocode
 
     ```csharp
