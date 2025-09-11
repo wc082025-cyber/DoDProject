@@ -63,6 +63,12 @@
 
     What i need to get a grip on today or soon, is difficult to explain, because I dont know how to.
 
+    Thursday 9/11
+    Still getting a grasp on things. I still struggle. But Im learning.
+    Finding that hjerterom for stille studender is the place i code best. No distractions there.
+    still struggling with the fundementals like syntax, operators control structures and such. But its a path Im not willing to give.
+    I have made progress in my game. I have a clear route to where I want it to go. Just trying to learn from the AI and not copy it, changing keywords the AI gives me to my own, but i make mistakes like we all do. I hope i get more done tomorrow before innlevering. My brain dont understand english very well at the end of the day.
+
 # pseudocode
 
     ```csharp
