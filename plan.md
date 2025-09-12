@@ -69,6 +69,19 @@
     still struggling with the fundementals like syntax, operators control structures and such. But its a path Im not willing to give.
     I have made progress in my game. I have a clear route to where I want it to go. Just trying to learn from the AI and not copy it, changing keywords the AI gives me to my own, but i make mistakes like we all do. I hope i get more done tomorrow before innlevering. My brain dont understand english very well at the end of the day.
 
+
+    Friday 12 september. Finally getting some grasp on this thing. I changed the name of ALL the rooms in my code. AI has helped me set up some of the flags/tags/naming(?) of rooms. it helped me get a better understanding, and made it WAY easier to name the rooms after colors. roomBlueOne, yellowFour and such. I understood what i had to do, and more of why it worked. Today has been the day i used AI the least. I asked it to help me color code the rooms, and after i read the code, i had no longer use for it. I just changed the naming of one room with help, and then I did the rest of the naming my self.
+    When i started this project I was not sure what I can name, and what I cant. Now I understand better.
+
+    The game has a story, and each of the branches has their own ending. Each has three options to enter a new room, if, if else and else.
+    else is usually when player enter a wrong prompt, and the game gives a game related answer instead of try again, to make it more immersive.
+    try for your self.
+
+    The game itself was cut a bit shorter than planned. There are some rooms that did not make it. I could have spent more time coding rooms. But I fund it more interesting writing a better story that just left right yes no end.
+    I have leared much this week. I still find the best room to code is hjerterom for rolige studenter the best place to be. I can focus better and I dont get distracted. Not very social, but that it what fridays are for.
+
+    Hope you enjoy my Text based, rouge like, souls like game.
+
 # pseudocode
 
     ```csharp
